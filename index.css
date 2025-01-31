@@ -1,0 +1,34 @@
+.app{
+  text-align: center;
+  margin: 50px auto 0px;
+  width: 90%;
+  max-width: 700px;
+  height: 470px;
+  padding: 20px 15px;
+  background-color: rgb(37, 177, 130);
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.input{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input input{
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+}

@@ -1,6 +1,6 @@
 .app{
   text-align: center;
-  margin: 50px auto 0px;
+  margin: 50px auto;
   width: 90%;
   max-width: 700px;
   height: 470px;
@@ -31,4 +31,11 @@
   border: none;
   border-radius: 5px;
   padding: 5px 12px;
+  cursor: pointer;
+}
+
+.weather{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
 }

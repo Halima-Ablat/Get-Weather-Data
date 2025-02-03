@@ -1,10 +1,11 @@
 import React from 'react'
 
-function Search() {
+function Search({search, setSearch, handleSearch}) {
   return (
     <div className='input'>
-      <input type="text" placeholder='Enter City Name'/>
-      <button>Search</button>
+      <input type="text" placeholder='Enter City Name' value={search}
+      onChange={(event) => setSearch(event.target.value)}/>
+      <button onClick={handleSearch}>Search</button>
     </div>
   )
 }
